@@ -1,0 +1,7 @@
+## Por que ler/usar este livro? {-}
+
+Este livro foi pensando para ajudar pessoas que tem pouca ou nenhuma experiência com bioinformática e no seus trabalhos ou projetos precisam analisar dados de microbiomas obtidos a partir de sequenciamento em larga escala, especialmente na plataforma Illumina. É um guia teórico/prático para processar este tipo de dados com total independência.
+
+Foi criado a partir da experiencia dos autores, quem também tiveram que enfrentar dificuldades para iniciar com este tipo de análises e pensando em isto desenvolveram o presente guía para ajudar a novos iniciantes. 
+
+

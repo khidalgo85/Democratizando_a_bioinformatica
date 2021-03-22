@@ -1,0 +1,13 @@
+## Estrutura do livro {-}
+
+O primeiro volume, está dividido em três grandes partes. A primeira tem uma introdução ao mundo das linguagens de programação, onde serão introduzidos os comandos mais básicos para se desenvolver na linha de comando. A segunda parte contempla o processamento de dados de sequenciamento do amplicon 16S rRNA, desde a obtenção dos dados, passando pelo controle de qualidade, a eliminação de quimeras, clusterização em ASV (*Amplicon sequence variant*) e anotação taxonômica, usando três ferramentas diferentes (*Qiime2*, *DADA2*, *Galaxy*) . Por último, são abordadas as análises para geração de gráficos e estatísticas utilizando principalmente a linguagem **R**, no entanto também são aprensentadas outras alternativas.
+
+
+
+
+
+
+
+
+
+
