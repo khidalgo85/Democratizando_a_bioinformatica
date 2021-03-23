@@ -1,6 +1,7 @@
 output_dir: "docs"
 book_filename: "Democratizando_a_bioinformatica"
 delete_merged_file: true
+rmd_files: ["index.Rmd", "01-porque.Rmd", "02-estrutura.Rmd", "03-software.Rmd"]
 language:
   ui:
-    chapter_name: "Chapter "
+    chapter_name: "Capítulo "
