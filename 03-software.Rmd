@@ -2,12 +2,13 @@
 
 O conteúdo de este livro será principalmente para usuários de Linux/MacOs. Para os usuários de Windows, se recomenda, instalar um programa ou aplicativo para aceder a um servidor com Linux (p.e. *MobaXterm*, *Putty*, *Secure Shell App de Google Chrome Apps*) ou instalar uma maquina virtual com Linux (recomendada **Ubuntu**). No entanto é sempre recomendável revisar a configuração do computador a ser usado e conferir que cumpre com os requisitos mínimos de cada software. 
 
-Os *pipelines* de este livro usam diversos software, que irão se apresentando na medida que sejam necessários. A maioria das ferramentas baseadas em código (*code-based*), serão instaladas usando [Bioconda`s package](https://anaconda.org/bioconda) de [Anaconda](https://anaconda.org/). 
+Os *pipelines* de este livro usam diversos software, que irão se apresentando na medida que sejam necessários. A maioria das ferramentas baseadas em código (*code based*), serão instaladas usando [Bioconda`s package](https://anaconda.org/bioconda) de [Anaconda](https://anaconda.org/). 
 
 O software **R** será bastante usado durante várias etapas do processamento e análises de dados. Se recomenda a instalação *R version 4.0.4* e o IDLE *RStudio* a versão mais recente. (**Nota:** A instalação destes software será abordada em seções mais para frente).
 
-**Convenções**
+#### Convenções  {-}
 ***
+
 Não será adicionados **prompts** (i.e. `>` e `+`) aos códigos em este livro. Os comentários dentro dos códigos serão sinalizados com `##`. Os nomes de ferramentas, softwares e pacotes serão escritos em negrita (p.e. **Qiime2**), e código na linha serão formatados em fonte typewriter (p.e. `qiime2 -h`).
 
 Em construção...
