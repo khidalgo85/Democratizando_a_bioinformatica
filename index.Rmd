@@ -22,7 +22,7 @@ description: "Um guia simples e didático para se iniciar no mundo da bioinform�
 knitr::include_graphics("imgs/1.png")
 ```
 
-Esta é um guia *simples** e **didático** para se inciar no mundo da bioinformática para processamento e análises de sequenciamento em grande escala. No primeiro volume serão abordadas as análises de sequênciamento do amplicon do gene 16S rRNA pela plataforma *Illumina*.  
+Esta é um guia **s imples** e **didático** para se inciar no mundo da bioinformática para processamento e análises de sequenciamento em grande escala. No primeiro volume serão abordadas as análises de sequênciamento do amplicon do gene 16S rRNA pela plataforma *Illumina*.  
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages
