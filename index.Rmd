@@ -1,6 +1,6 @@
 --- 
 title: <font color="purple"> Democratizando a Bioinformática </font>
-author: "Kelly Hidalgo, Tiago Palladino, Victor Borin, Carla Paixão"
+author: "Kelly Hidalgo, Tiago Palladino, Victor Borin, Carla Paixão, Valéria Maia Merzel"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book

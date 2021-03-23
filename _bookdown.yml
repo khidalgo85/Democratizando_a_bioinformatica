@@ -3,7 +3,7 @@ book_filename: "Democratizando_a_bioinformatica"
 delete_merged_file: true
 rmd_files: ["index.Rmd", "01-porque.Rmd", 
 "02-estrutura.Rmd", "03-software.Rmd", 
-"04-agradecimentos.Rmd"]
+"04-agradecimentos.Rmd", "05-autores.Rmd"]
 language:
   ui:
     chapter_name: "Capítulo "
