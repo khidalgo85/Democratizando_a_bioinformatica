@@ -78,7 +78,7 @@
 
 \title{ Democratizando a Bioinformática}
 \author{Kelly Hidalgo, Tiago Palladino, Victor Borin, Carla Paixão}
-\date{2021-03-22}
+\date{2021-03-23}
 
 \begin{document}
 \maketitle
@@ -95,7 +95,7 @@
 
 \begin{center}\includegraphics[width=1.2\linewidth,height=1.2\textheight]{imgs/1} \end{center}
 
-Esta é um guia \textbf{simples} e \textbf{didático} para se inciar no munda da bioinformática para processamento e análises de sequenciamento em grande escala. No primeiro volume serão abordadas as análises de sequênciamento do amplicon do gene 16S rRNA pela plataforma \emph{Illumina}.
+Esta é um guia \textbf{simples} e \textbf{didático} para se inciar no mundo da bioinformática para processamento e análises de sequenciamento em grande escala. No primeiro volume serão abordadas as análises de sequênciamento do amplicon do gene 16S rRNA pela plataforma \emph{Illumina}.
 
 \hypertarget{por-que-lerusar-este-livro}{%
 \section*{Por que ler/usar este livro?}\label{por-que-lerusar-este-livro}}
@@ -110,6 +110,26 @@ Foi criado a partir da experiencia dos autores, quem também tiveram que enfrent
 \addcontentsline{toc}{section}{Estrutura do livro}
 
 O primeiro volume, está dividido em três grandes partes. A primeira tem uma introdução ao mundo das linguagens de programação, onde serão introduzidos os comandos mais básicos para se desenvolver na linha de comando. A segunda parte contempla o processamento de dados de sequenciamento do amplicon 16S rRNA, desde a obtenção dos dados, passando pelo controle de qualidade, a eliminação de quimeras, clusterização em ASV (\emph{Amplicon sequence variant}) e anotação taxonômica, usando três ferramentas diferentes (\emph{Qiime2}, \emph{DADA2}, \emph{Galaxy}) . Por último, são abordadas as análises para geração de gráficos e estatísticas utilizando principalmente a linguagem \textbf{R}, no entanto também são aprensentadas outras alternativas.
+
+\hypertarget{informauxe7uxe3o-sobre-software-e-convenuxe7uxf5es}{%
+\section*{Informação sobre software e convenções}\label{informauxe7uxe3o-sobre-software-e-convenuxe7uxf5es}}
+\addcontentsline{toc}{section}{Informação sobre software e convenções}
+
+O conteúdo de este livro será principalmente para usuários de Linux/MacOs. Para os usuários de Windows, se recomenda, instalar um programa ou aplicativo para aceder a um servidor com Linux (p.e. \emph{MobaXterm}, \emph{Putty}, \emph{Secure Shell App de Google Chrome Apps}) ou instalar uma maquina virtual com Linux (recomendada \textbf{Ubuntu}). No entanto é sempre recomendável revisar a configuração do computador a ser usado e conferir que cumpre com os requisitos mínimos de cada software.
+
+Os \emph{pipelines} de este livro usam diversos software, que irão se apresentando na medida que sejam necessários. A maioria das ferramentas baseadas em código (\emph{code based}), serão instaladas usando \href{https://anaconda.org/bioconda}{Bioconda`s package} de \href{https://anaconda.org/}{Anaconda}.
+
+O software \textbf{R} será bastante usado durante várias etapas do processamento e análises de dados. Se recomenda a instalação \emph{R version 4.0.4} e o IDLE \emph{RStudio} a versão mais recente. (\textbf{Nota:} A instalação destes software será abordada em seções mais para frente).
+
+\hypertarget{convenuxe7uxf5es}{%
+\subsubsection*{Convenções}\label{convenuxe7uxf5es}}
+\addcontentsline{toc}{subsubsection}{Convenções}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Não será adicionados \textbf{prompts} (i.e.~\texttt{\textgreater{}} e \texttt{+}) aos códigos em este livro. Os comentários dentro dos códigos serão sinalizados com \texttt{\#\#}. Os nomes de ferramentas, softwares e pacotes serão escritos em negrita (p.e. \textbf{Qiime2}), e código na linha serão formatados em fonte typewriter (p.e. \texttt{qiime2\ -h}).
+
+Em construção\ldots{}
 
   \bibliography{book.bib,packages.bib}
 

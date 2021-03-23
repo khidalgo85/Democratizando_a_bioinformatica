@@ -24,7 +24,7 @@
 <meta name="author" content="Kelly Hidalgo, Tiago Palladino, Victor Borin, Carla Paixão" />
 
 
-<meta name="date" content="2021-03-22" />
+<meta name="date" content="2021-03-23" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -67,13 +67,14 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">A Minimal Book Example</a></li>
+<li><a href="./">Um guia simples e didático</a></li>
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path=""><a href="#prefacio"><i class="fa fa-check"></i>Prefacio</a>
 <ul>
 <li class="chapter" data-level="" data-path=""><a href="#por-que-lerusar-este-livro"><i class="fa fa-check"></i>Por que ler/usar este livro?</a></li>
 <li class="chapter" data-level="" data-path=""><a href="#estrutura-do-livro"><i class="fa fa-check"></i>Estrutura do livro</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#informação-sobre-software-e-convenções"><i class="fa fa-check"></i>Informação sobre software e convenções</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -98,13 +99,13 @@
 <div id="header">
 <h1 class="title"><font color="purple"> Democratizando a Bioinformática </font></h1>
 <p class="author"><em>Kelly Hidalgo, Tiago Palladino, Victor Borin, Carla Paixão</em></p>
-<p class="date"><em>2021-03-22</em></p>
+<p class="date"><em>2021-03-23</em></p>
 </div>
 <div id="prefacio" class="section level1 unnumbered">
 <h1>Prefacio</h1>
 <hr />
 <p><img src="imgs/1.png" width="120%" height="120%" style="display: block; margin: auto;" /></p>
-<p>Esta é um guia <strong>simples</strong> e <strong>didático</strong> para se inciar no munda da bioinformática para processamento e análises de sequenciamento em grande escala. No primeiro volume serão abordadas as análises de sequênciamento do amplicon do gene 16S rRNA pela plataforma <em>Illumina</em>.</p>
+<p>Esta é um guia <strong>simples</strong> e <strong>didático</strong> para se inciar no mundo da bioinformática para processamento e análises de sequenciamento em grande escala. No primeiro volume serão abordadas as análises de sequênciamento do amplicon do gene 16S rRNA pela plataforma <em>Illumina</em>.</p>
 
 <div id="por-que-lerusar-este-livro" class="section level2 unnumbered">
 <h2>Por que ler/usar este livro?</h2>
@@ -116,6 +117,19 @@
 <h2>Estrutura do livro</h2>
 <p>O primeiro volume, está dividido em três grandes partes. A primeira tem uma introdução ao mundo das linguagens de programação, onde serão introduzidos os comandos mais básicos para se desenvolver na linha de comando. A segunda parte contempla o processamento de dados de sequenciamento do amplicon 16S rRNA, desde a obtenção dos dados, passando pelo controle de qualidade, a eliminação de quimeras, clusterização em ASV (<em>Amplicon sequence variant</em>) e anotação taxonômica, usando três ferramentas diferentes (<em>Qiime2</em>, <em>DADA2</em>, <em>Galaxy</em>) . Por último, são abordadas as análises para geração de gráficos e estatísticas utilizando principalmente a linguagem <strong>R</strong>, no entanto também são aprensentadas outras alternativas.</p>
 
+</div>
+<div id="informação-sobre-software-e-convenções" class="section level2 unnumbered">
+<h2>Informação sobre software e convenções</h2>
+<p>O conteúdo de este livro será principalmente para usuários de Linux/MacOs. Para os usuários de Windows, se recomenda, instalar um programa ou aplicativo para aceder a um servidor com Linux (p.e. <em>MobaXterm</em>, <em>Putty</em>, <em>Secure Shell App de Google Chrome Apps</em>) ou instalar uma maquina virtual com Linux (recomendada <strong>Ubuntu</strong>). No entanto é sempre recomendável revisar a configuração do computador a ser usado e conferir que cumpre com os requisitos mínimos de cada software.</p>
+<p>Os <em>pipelines</em> de este livro usam diversos software, que irão se apresentando na medida que sejam necessários. A maioria das ferramentas baseadas em código (<em>code based</em>), serão instaladas usando <a href="https://anaconda.org/bioconda">Bioconda`s package</a> de <a href="https://anaconda.org/">Anaconda</a>.</p>
+<p>O software <strong>R</strong> será bastante usado durante várias etapas do processamento e análises de dados. Se recomenda a instalação <em>R version 4.0.4</em> e o IDLE <em>RStudio</em> a versão mais recente. (<strong>Nota:</strong> A instalação destes software será abordada em seções mais para frente).</p>
+<div id="convenções" class="section level4 unnumbered">
+<h4>Convenções</h4>
+<hr />
+<p>Não será adicionados <strong>prompts</strong> (i.e. <code>&gt;</code> e <code>+</code>) aos códigos em este livro. Os comentários dentro dos códigos serão sinalizados com <code>##</code>. Os nomes de ferramentas, softwares e pacotes serão escritos em negrita (p.e. <strong>Qiime2</strong>), e código na linha serão formatados em fonte typewriter (p.e. <code>qiime2 -h</code>).</p>
+<p>Em construção…</p>
+
+</div>
 </div>
 </div>
             </section>
